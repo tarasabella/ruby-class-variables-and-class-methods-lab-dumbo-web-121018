@@ -17,6 +17,9 @@ class Song # => define class named song
     @@artist << artist 
     @@genres << genre
     @@count += 1 
+    
+  end 
+end 
     #each individual song is initialized with a name, artist, and genre
     #each instance of our class will have a name, artist & genre 
     
