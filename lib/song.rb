@@ -29,6 +29,10 @@ class Song # => define class named song
  def self.count 
    @@count  
  end 
+ 
+def self.genres 
+  @@genres.uniq
+end 
     
   end 
   
