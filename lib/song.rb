@@ -26,9 +26,9 @@ class Song # => define class named song
   
    #each new instance of the song class is added to the genre array 
   
-#  def self.count 
-#     @@genre 
-#   end 
+ def self.count 
+   @@count  
+ end 
     
   
   
