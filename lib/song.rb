@@ -41,6 +41,7 @@ def self.artists
 def self.artist_count
   artist_count = {}
   @@artists.each do |artist|
+    of artist_count[artist]
   
 def self.genre_count # => genres {} & # of songs that have those genres 
 genre_count = {}
