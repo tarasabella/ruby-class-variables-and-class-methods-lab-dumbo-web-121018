@@ -5,12 +5,17 @@ class Song # => define class named song
   #create a getter & setter so that they can be accessed w/in our methods and manipulated 
   
   @@count = 0
+  @@artist = []
+  @@genre = []
+  
   #class variable that keeps track of the number of new songs created 
   
   def initialize(name, artist, genre)
     @name = name 
-    @@artist = [] 
-    @@genres = []
+    @artist = artist 
+    @genre = genre 
+    @@artist << artist 
+    @@genres << genre
     
     #each individual song is initialized with a name, artist, and genre
     #each instance of our class will have a name, artist & genre 
