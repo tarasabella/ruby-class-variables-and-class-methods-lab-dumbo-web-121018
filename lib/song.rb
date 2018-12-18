@@ -39,8 +39,9 @@ def self.artists
   end 
   
 def self.genre_count # => genres {} & # of songs that have those genres 
-genres.select do |genre|
-  genre.song.count 
+genre_count = {}
+@@genres.select do |genre|
+  if genre.song.count 
 end 
 end 
   
