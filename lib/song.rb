@@ -16,8 +16,8 @@ class Song # => define class named song
     #each instance of our class will have a name, artist & genre 
     
     @@count += 1 
-    @@artist << self 
-    @@genres.uniq << self 
+    @@artist = artist
+    @@genres = artist 
     #every new instance of the song class is added to the count integer 
   
    #each new instance of the song class is added to the genre array 
