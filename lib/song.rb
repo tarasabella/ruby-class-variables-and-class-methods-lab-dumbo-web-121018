@@ -40,7 +40,7 @@ def self.artists
   
 def self.genre_count # => genres {} & # of songs that have those genres 
 genre_count = {}
-@@genres.select do |genre|
+@@genres.each do |genre|
   if genre.song = genre  
 end 
 end 
