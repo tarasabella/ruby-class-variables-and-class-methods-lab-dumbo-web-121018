@@ -16,13 +16,12 @@ class Song # => define class named song
     @genre = genre 
     @@artist << artist 
     @@genres << genre
-    
+    @@count += 1 
     #each individual song is initialized with a name, artist, and genre
     #each instance of our class will have a name, artist & genre 
     
-    @@count += 1 
-    @@artist = artist
-    @@genres = artist 
+    
+
     #every new instance of the song class is added to the count integer 
   
    #each new instance of the song class is added to the genre array 
