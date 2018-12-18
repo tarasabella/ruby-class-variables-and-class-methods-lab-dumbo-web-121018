@@ -5,8 +5,8 @@ class Song # => define class named song
   #create a getter & setter so that they can be accessed w/in our methods and manipulated 
   
   @@count = 0
-  @@artist = []
-  @@genre = []
+  @@artists = []
+  @@genres = []
   
   #class variable that keeps track of the number of new songs created 
   
@@ -14,7 +14,7 @@ class Song # => define class named song
     @name = name 
     @artist = artist 
     @genre = genre 
-    @@artist << artist 
+    @@artists << artist 
     @@genres << genre
     @@count += 1 
     
